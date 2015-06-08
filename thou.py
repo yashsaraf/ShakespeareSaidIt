@@ -2,6 +2,7 @@
 
 import sys
 import json
+import string
 
 args = sys.argv
 num = len(args)
@@ -37,6 +38,7 @@ def clean_word(word):
 	word = word.replace("\t","")
 	word = word.replace("\n","")
 	word = word.replace("\r","")
+	word = filter(lambda x: x in string.printable, word)
 	return word
 
 all_words = []
@@ -104,7 +106,7 @@ for word in all_words:
 	count_grid[word] = grid
 
 fjson = open('prob.json','w')
-fjson.write(json.dumps(count_grid, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False).encode('utf8'))
+fjson.write(json.dumps(count_grid, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=True))
 fjson.close()
 
 

@@ -1400,6 +1400,7 @@ blanket
 blanket
 blankets
 blanks
+blas
 blaspheme
 blaspheming
 blasphemous
@@ -1409,7 +1410,6 @@ blasted
 blasting
 blastments
 blasts
-blasé
 blaze
 blazes
 blazon
@@ -2395,6 +2395,7 @@ christophero
 christs
 chronicle
 chronicles
+chteau
 chuck
 chuck
 chucked
@@ -2408,7 +2409,6 @@ churchyard
 churchyards
 churl
 churlish
-château
 ci
 cicatrice
 cicely
@@ -5076,7 +5076,7 @@ fever
 fever
 feverish
 feverous
-fiancée
+fiance
 fickle
 fiction
 fiddler
